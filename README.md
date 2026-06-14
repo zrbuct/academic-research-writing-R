@@ -30,3 +30,26 @@ git clone https://github.com/<your-username>/academic-research-writing.git ${COD
 - "帮我把这段中文翻译成英文论文"
 - "用 reviewer 视角审一下这篇论文"
 - "给这张图写个符合 ICML 规范的 caption"
+
+## 贡献
+
+欢迎大家一起完善这个 skill！
+
+### 方式一：提交 Prompt 模板
+
+如果你有好用的学术写作 prompt，可以直接编辑 `references/prompts.md` 添加进去，发 PR 即可。
+
+### 方式二：Fork → 修改 → Pull Request
+
+1. Fork 本仓库
+2. Clone 你的 fork：`git clone https://github.com/<你的用户名>/academic-research-writing-R.git`
+3. 创建分支：`git checkout -b my-update`
+4. 修改后提交：`git commit -m "添加了xxx场景的prompt"`
+5. Push 并到原仓库发起 Pull Request
+
+### 贡献内容建议
+
+- 新的写作场景 prompt（如 rebuttal、cover letter、graphical abstract 等）
+- 现有 prompt 的优化和修正
+- 新的论文写作相关 skill 或工具推荐
+- 多学科适配（目前偏 CS，欢迎其他学科的同学补充）
