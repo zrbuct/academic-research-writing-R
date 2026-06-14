@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Research Writing"
+  short_description: "Prompt templates and agent skills for CN-EN academic paper writing"
+  default_prompt: "Use academic-research-writing to help me polish this paragraph for an ICML submission"
